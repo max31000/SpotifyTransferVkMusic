@@ -9,12 +9,12 @@
       Title="VkPage">
 
     <StackPanel>
-        <Label Margin="50,20,50,0" FontSize="40" Width="500">Vk Auth</Label>
-        <Label Margin="50,20,50,0" FontSize="16" Width="500">Login:</Label>
+        <Label Margin="50,20,50,0" FontSize="40" Width="500">Авторизируйтесь в ВК:</Label>
+        <Label Margin="50,20,50,0" FontSize="16" Width="500">Логин:</Label>
         <TextBox Name="LoginTextBox" Height="40" Width="500" FontSize="28" Margin="50,0,50,0"></TextBox>
-        <Label Margin="50,10,50,0" FontSize="16" Width="500">Password:</Label>
-        <TextBox Name="PasswordTextBox" Width="500" Height="40" FontSize="28" Margin="50,0,50,0"></TextBox>
+        <Label Margin="50,10,50,0" FontSize="16" Width="500">Пароль:</Label>
+        <PasswordBox  Name="PasswordTextBox" Width="500" Height="40" FontSize="28" Margin="50,0,50,0" PasswordChar="*"></PasswordBox>
         <Label Name="ErrorLabel" Margin="50,0,50,0" Foreground="DarkRed" Height="26" Width="500"></Label>
-        <Button Name="AuthButton" FontSize="24" Grid.Column="0" Margin="180,25,180,0" Width="190">Ok</Button>
+        <Button Name="AuthButton" FontSize="24" Grid.Column="0" Margin="180,25,180,0" Width="190">Ок</Button>
     </StackPanel>
 </Page>

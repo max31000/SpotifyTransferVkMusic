@@ -10,6 +10,6 @@
 
     <StackPanel>
         <Label VerticalAlignment="Stretch" HorizontalAlignment="Center" FontSize="30" Margin="0,50,0,200">Перенос успешно завершен</Label>
-        <Button Width="200" Height="40" Margin="0,60,0,0">Выход</Button>
+        <Button Name="exitButton" Width="200" Height="40" Margin="0,60,0,0" FontSize="18">Выход</Button>
     </StackPanel>
 </Page>

@@ -47,7 +47,7 @@ namespace SpotifyTransferVkMusic
 
         private void AddTracksButton()
         {
-            transferAgent.TransferMusic(playlistNameTextbox.Text, spotifySongs.Select(s => s.Uri).ToList());
+            transferAgent.TransferMusic(playlistNameTextbox.Text.Replace(" ", ""), spotifySongs.Select(s => s.Uri).ToList());
         }
 
         private void AddSongToList(Song song)

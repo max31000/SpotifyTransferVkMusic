@@ -37,7 +37,7 @@ namespace SpotifyTransferVkMusic
                 agent.VkAgent.VkApi.Authorize(new ApiAuthParams
                 {
                     Login = LoginTextBox.Text,
-                    Password = PasswordTextBox.Text
+                    Password = PasswordTextBox.Password
                 });
             }
             catch

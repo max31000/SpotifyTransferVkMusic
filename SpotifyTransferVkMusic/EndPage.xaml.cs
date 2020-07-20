@@ -21,6 +21,7 @@ namespace SpotifyTransferVkMusic
         public EndPage()
         {
             InitializeComponent();
+            exitButton.Click += (o, e) => Application.Current.Shutdown();
         }
     }
 }
